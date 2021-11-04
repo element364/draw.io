@@ -1,9 +1,12 @@
-<mxfile modified="2021-11-04T12:45:28.243Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="fbLXlDFxTaVd0GecRV23" version="15.6.8" type="github">
+<mxfile modified="2021-11-04T12:57:36.195Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="Pgy7HCwBKZhhrdzuXMz6" version="15.6.8" type="github">
   <diagram id="5_rdmGaq0llwrfAE2dWt" name="Page-1">
     <mxGraphModel dx="933" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-30" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="71.28999999999999" y="1948.5" width="120" height="260" as="geometry" />
+        </mxCell>
         <mxCell id="IsMm8OiR0PWOaWT-6-WU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IsMm8OiR0PWOaWT-6-WU-1" target="IsMm8OiR0PWOaWT-6-WU-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -209,43 +212,130 @@
         <mxCell id="MKAxNaUC_JFHe610yueE-4" value="writes logs to sqlite" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="614" y="1222" width="116" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-13" value="generation request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-1" target="GoTZMSBDkHFgKHJFE9Pi-2">
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-41" value="request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-30" target="GoTZMSBDkHFgKHJFE9Pi-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-1" value="resolve-app" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
-          <mxGeometry x="101" y="1610" width="112" height="140" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-16" value="resolve-app-review" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2078.5" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-9" value="pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-2" target="GoTZMSBDkHFgKHJFE9Pi-8">
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-17" value="pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-21" target="GoTZMSBDkHFgKHJFE9Pi-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635.5" y="2283.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-21" target="GoTZMSBDkHFgKHJFE9Pi-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-2" target="GoTZMSBDkHFgKHJFE9Pi-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-12" value="logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoTZMSBDkHFgKHJFE9Pi-11">
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-19" value="logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoTZMSBDkHFgKHJFE9Pi-18">
           <mxGeometry x="-0.0121" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-14" value="s3 url" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.973;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-2" target="GoTZMSBDkHFgKHJFE9Pi-1">
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-21" value="resolve-pdf-lamda-dev" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="397" y="2309.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-23" target="GoTZMSBDkHFgKHJFE9Pi-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-2" value="resolve-pdf-lamda-production" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
-          <mxGeometry x="411.5" y="1630" width="78" height="78" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="88.69999999999999" y="1958.5" width="82.59" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-4" target="GoTZMSBDkHFgKHJFE9Pi-1">
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://commons.bmstu.wiki/images/b/b5/Postgresql.png;" vertex="1" parent="1">
+          <mxGeometry x="109.75999999999999" y="1998.5" width="45.14" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-25" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal ; color: rgb(102 , 102 , 102) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;noto sans&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;noto color emoji&amp;#34; ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;resolve-exports-test&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="586" y="2170" width="100" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-26" value="cloudwatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="604.25" y="2374.5" width="91.37" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-27" target="GoTZMSBDkHFgKHJFE9Pi-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="101" y="1440" width="112.67" height="130" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-27" value="HTTPS API Gateway" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="260" y="2300" width="97" height="97" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://commons.bmstu.wiki/images/b/b5/Postgresql.png;" vertex="1" parent="1">
-          <mxGeometry x="117.84" y="1490" width="79" height="70" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-59" value="request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-49" target="GoTZMSBDkHFgKHJFE9Pi-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-8" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: normal ; color: rgb(102 , 102 , 102) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;roboto&amp;#34; , &amp;#34;noto sans&amp;#34; , &amp;#34;ubuntu&amp;#34; , &amp;#34;cantarell&amp;#34; , &amp;#34;helvetica neue&amp;#34; , sans-serif , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;segoe ui symbol&amp;#34; , &amp;#34;noto color emoji&amp;#34; ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;resolve-exports-production&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
-          <mxGeometry x="622" y="1490" width="100" height="119" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-49" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2218.5" width="120" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-10" value="cloudwatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630.75" y="1690" width="91.37" height="103" as="geometry" />
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-50" value="resolve-app-local" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="88.70999999999998" y="2348.5" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-52" target="GoTZMSBDkHFgKHJFE9Pi-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-52" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="87.41" y="2228.5" width="82.59" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-53" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://commons.bmstu.wiki/images/b/b5/Postgresql.png;" vertex="1" parent="1">
+          <mxGeometry x="108.47" y="2268.5" width="45.14" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-60" value="request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-54" target="GoTZMSBDkHFgKHJFE9Pi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-54" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="72.33" y="2488.5" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-55" value="resolve-app-staging" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="91.03999999999999" y="2618.5" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-57" target="GoTZMSBDkHFgKHJFE9Pi-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-57" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="89.73999999999998" y="2498.5" width="82.59" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-58" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://commons.bmstu.wiki/images/b/b5/Postgresql.png;" vertex="1" parent="1">
+          <mxGeometry x="110.79999999999998" y="2538.5" width="45.14" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-64" value="pdf" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-67" target="GoTZMSBDkHFgKHJFE9Pi-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637.8299999999999" y="1643.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-67" target="GoTZMSBDkHFgKHJFE9Pi-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-66" value="logs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoTZMSBDkHFgKHJFE9Pi-65">
+          <mxGeometry x="-0.0121" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-67" value="resolve-pdf-lamda-production" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
+          <mxGeometry x="399.33000000000004" y="1669.5" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-71" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;/div&gt;resolve-exports-production" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="588.3299999999999" y="1530" width="100" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-72" value="cloudwatch" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="606.5799999999999" y="1734.5" width="91.37" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-74" target="GoTZMSBDkHFgKHJFE9Pi-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-74" value="HTTPS API Gateway" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="262.33000000000004" y="1660" width="97" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-75" value="request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-76" target="GoTZMSBDkHFgKHJFE9Pi-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-76" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="72.33000000000001" y="1578.5" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-77" value="resolve-app--production" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="91.03999999999999" y="1708.5" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GoTZMSBDkHFgKHJFE9Pi-79" target="GoTZMSBDkHFgKHJFE9Pi-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-79" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="89.74000000000001" y="1588.5" width="82.59" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GoTZMSBDkHFgKHJFE9Pi-80" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://commons.bmstu.wiki/images/b/b5/Postgresql.png;" vertex="1" parent="1">
+          <mxGeometry x="110.79999999999998" y="1628.5" width="45.14" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
