@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-26T08:48:45.708Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="0AGMBdD93zNyxOgMGU9d" version="21.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T08:52:39.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="prJ5c5p25KiDN0-LYu6n" version="21.2.2" type="github">
   <diagram name="Page-1" id="UEIWCxtO40K_BxdGQvlH">
     <mxGraphModel dx="1175" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,31 +10,45 @@
         <mxCell id="DZLW-yPL1tfTycZtVKS5-3" value="cdn.schema.io" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="120" height="40" as="geometry" />
         </mxCell>
+        <UserObject label="d3odkvry4hktt0.cloudfront.net" id="DZLW-yPL1tfTycZtVKS5-5">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="324" y="200" width="180" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-17" value="Redirect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DZLW-yPL1tfTycZtVKS5-14" target="DZLW-yPL1tfTycZtVKS5-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-19" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="110" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-26" value="Redirect" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DZLW-yPL1tfTycZtVKS5-11" target="DZLW-yPL1tfTycZtVKS5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-11" value="api.piiojs.com/schemaV1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-14" value="cdn.swell.store" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="180" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="DZLW-yPL1tfTycZtVKS5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DZLW-yPL1tfTycZtVKS5-5" target="DZLW-yPL1tfTycZtVKS5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DZLW-yPL1tfTycZtVKS5-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DZLW-yPL1tfTycZtVKS5-5" target="DZLW-yPL1tfTycZtVKS5-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="d3odkvry4hktt0.cloudfront.net" id="DZLW-yPL1tfTycZtVKS5-5">
-          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="324" y="200" width="180" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="DZLW-yPL1tfTycZtVKS5-9" value="&lt;span style=&quot;font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; color: rgb(22, 25, 31); font-family: &amp;quot;Amazon Ember&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Roboto, Arial, sans-serif; font-size: 28px; font-variant-ligatures: normal; orphans: 2; text-align: left; widows: 2; background-color: rgb(242, 243, 243); text-decoration-thickness: initial; float: none; display: inline !important;&quot;&gt;EC72HNCNN8KJ4&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="150" width="250" height="40" as="geometry" />
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-20" value="Origins + cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="120" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DZLW-yPL1tfTycZtVKS5-11" value="api.piiojs.com/schemaV1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="160" width="180" height="40" as="geometry" />
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-21" value="EC72HNCNN8KJ4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DZLW-yPL1tfTycZtVKS5-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DZLW-yPL1tfTycZtVKS5-14" target="DZLW-yPL1tfTycZtVKS5-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-23" value="cdn.swell.store" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="230" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DZLW-yPL1tfTycZtVKS5-14" value="cdn.swell.store" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="230" width="180" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="DZLW-yPL1tfTycZtVKS5-16" value="&lt;a style=&quot;box-sizing: border-box; color: rgb(51, 122, 183); text-decoration: none; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 13px; text-align: left;&quot; href=&quot;https://mxtoolbox.com/SuperTool.aspx?action=mx%3acdn.schema.io&amp;amp;run=toolpage#&quot;&gt;dr1rkksjcxb3a.cloudfront.net&lt;/a&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="230" width="180" height="40" as="geometry" />
+        <mxCell id="DZLW-yPL1tfTycZtVKS5-25" value="api.piiojs.com/schemaV1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
