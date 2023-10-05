@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T17:32:38.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="LUcEY87gHV3MCi0QXCtS" version="22.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T17:46:14.350Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15" etag="fvYJZxffz5Bh_cImfBwv" version="22.0.2" type="github">
   <diagram name="Page-1" id="DCZ1rM_a9LMv5U1V_pm2">
     <mxGraphModel dx="1177" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,15 @@
         </mxCell>
         <mxCell id="onRBkQV_aKbNNI7zjv46-9" value="staging-api.swell.store" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
           <mxGeometry x="600" y="200" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="onRBkQV_aKbNNI7zjv46-10" value="&lt;a style=&quot;text-align: start; box-sizing: border-box; outline: 0px; color: var(--mdb-link-color); text-decoration: none; display: inline; cursor: pointer; background-image: none; padding: 0px; margin: 0px; border: 0px; box-shadow: none; font-size: 15px; font-family: &amp;quot;Euclid Circular A&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif;&quot; href=&quot;https://cloud.mongodb.com/v2/605376d8457b6b1446f3c488#/clusters/detail/staging-cluster-1&quot; class=&quot;link&quot;&gt;staging-cluster-1&lt;/a&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="290" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="onRBkQV_aKbNNI7zjv46-11" value="&lt;a style=&quot;text-align: start; box-sizing: border-box; outline: 0px; color: var(--mdb-link-color); text-decoration: none; display: inline; cursor: pointer; background-image: none; padding: 0px; margin: 0px; border: 0px; box-shadow: none; font-size: 15px; font-family: &amp;quot;Euclid Circular A&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif;&quot; href=&quot;https://cloud.mongodb.com/v2/605376d8457b6b1446f3c488#/clusters/detail/swell-aws-staging&quot; class=&quot;link&quot;&gt;swell-aws-staging&lt;/a&gt;" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="520" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="onRBkQV_aKbNNI7zjv46-13" value="swell-aws-staging-eu" style="image;html=1;image=img/lib/clip_art/computers/Database_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="747" y="620" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
