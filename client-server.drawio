@@ -40,6 +40,15 @@
         <mxCell id="rBoZev6xuI7LeDAGhiJY-2" value="API server (proxy)" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="270" y="390" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="3tgHMd8Dt0rjOWd303GG-2" value="&lt;a style=&quot;box-sizing: inherit; font-family: Slack-Lato, Slack-Fractions, appleLogo, sans-serif; font-size: 15px; font-variant-ligatures: common-ligatures; text-align: left; background-color: rgb(248, 248, 248);&quot; aria-describedby=&quot;sk-tooltip-13041&quot; rel=&quot;noopener noreferrer&quot; href=&quot;http://dev.us.v2.victorinsurance.com/api&quot; data-sk=&quot;tooltip_parent&quot; data-stringify-link=&quot;http://dev.us.v2.victorinsurance.com/api&quot; class=&quot;c-link&quot; target=&quot;_blank&quot;&gt;http://dev.us.v2.victorinsurance.com&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3tgHMd8Dt0rjOWd303GG-4" value="/ -&amp;gt; frontend:8080" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3tgHMd8Dt0rjOWd303GG-5" value="/api -&amp;gt; backend:8080" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
