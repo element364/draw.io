@@ -9,7 +9,7 @@
         </mxCell>
         <UserObject label="kekw.swell.store" id="IppyFY_8jDfmEywMOPqL-1">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-            <mxGeometry x="50" y="120" width="64" height="64" as="geometry" />
+            <mxGeometry x="50" y="440" width="64" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="IppyFY_8jDfmEywMOPqL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IppyFY_8jDfmEywMOPqL-2" target="IppyFY_8jDfmEywMOPqL-4">
@@ -17,7 +17,7 @@
         </mxCell>
         <UserObject label="admin-aws-uswest1-swell-prod-1.swell.store" id="IppyFY_8jDfmEywMOPqL-2">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-            <mxGeometry x="260" y="120" width="64" height="64" as="geometry" />
+            <mxGeometry x="288" y="440" width="64" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="a5d6397bbb51d4d179f2110e68901f20-446a250011806252.elb.us-west-1.amazonaws.com" id="IppyFY_8jDfmEywMOPqL-4">
@@ -30,7 +30,7 @@
         </mxCell>
         <UserObject label="api-aws-uswest1-swell-prod-1.schema.io" id="IppyFY_8jDfmEywMOPqL-6">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-            <mxGeometry x="260" y="390" width="64" height="64" as="geometry" />
+            <mxGeometry x="260" y="90" width="64" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="IppyFY_8jDfmEywMOPqL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IppyFY_8jDfmEywMOPqL-7" target="IppyFY_8jDfmEywMOPqL-6">
@@ -38,15 +38,29 @@
         </mxCell>
         <UserObject label="api.schema.io" id="IppyFY_8jDfmEywMOPqL-7">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-            <mxGeometry x="50" y="320" width="64" height="64" as="geometry" />
+            <mxGeometry x="50" y="20" width="64" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="api.swell.store" id="IppyFY_8jDfmEywMOPqL-11">
           <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
-            <mxGeometry x="50" y="500" width="64" height="64" as="geometry" />
+            <mxGeometry x="50" y="166" width="64" height="64" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="IppyFY_8jDfmEywMOPqL-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IppyFY_8jDfmEywMOPqL-11" target="IppyFY_8jDfmEywMOPqL-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IppyFY_8jDfmEywMOPqL-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IppyFY_8jDfmEywMOPqL-13" target="IppyFY_8jDfmEywMOPqL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="app.swell.store" id="IppyFY_8jDfmEywMOPqL-13">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/DNS_Zones.svg;" vertex="1" parent="1">
+            <mxGeometry x="50" y="640" width="64" height="64" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="IppyFY_8jDfmEywMOPqL-14" value="44.227.88.109&lt;br&gt;Syminet" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="280" y="632" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IppyFY_8jDfmEywMOPqL-16" value="admin" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IppyFY_8jDfmEywMOPqL-14" target="IppyFY_8jDfmEywMOPqL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
