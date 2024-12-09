@@ -26,7 +26,7 @@
           <mxGeometry x="130" y="250" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-6" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="590" height="120" as="geometry" />
+          <mxGeometry x="240" y="450" width="590" height="120" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-7" value="P1 Portfolio 1 1990" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="F4xVy5x0OG0Q-c5eL7EG-6">
           <mxGeometry y="30" width="590" height="30" as="geometry" />
@@ -59,13 +59,13 @@
           <mxGeometry x="740" y="650" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-21" value="By year" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="195" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="195" y="810" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-22" value="Portfolio 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="505" y="810" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-23" value="Portfolio 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="820" y="810" width="60" height="30" as="geometry" />
+          <mxGeometry x="810" y="810" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F4xVy5x0OG0Q-c5eL7EG-24" value="P3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="565" y="725" width="50" height="50" as="geometry" />
